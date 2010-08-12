@@ -1,6 +1,7 @@
 require "moneta/builder"
 
 module Moneta
+  MONETA_VERSION = '0.6.0.2'
   module Defaults
     def fetch(key, value = nil, *)
       self[key] || begin
